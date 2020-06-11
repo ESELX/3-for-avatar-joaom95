@@ -27,10 +27,10 @@ function draw() { //código que corre em loop
    posX = mouseX
    posY = mouseY
 
-   numDiv = 7;
+   numDiv = 15;
    for ( i=0; i < numDiv-1; i ++){
      for (j=0; j < numDiv-1; j++){
-       avatar ((i+1)*width/numDiv, (j+1)*height/numDiv,40); } }
+       avatar ((i+1)*width/numDiv, (j+1)*height/numDiv,15); } }
 
  }
    function avatar (posX,posY,diam) {
